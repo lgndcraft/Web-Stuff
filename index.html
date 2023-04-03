@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="mainblock">
+            <p>WELCOME TO THE SIGN IN PAGE</p>
+        </div>
+        <div class="form">
+            <p>SIGN IN</p>
+            <form action="insert.php" method="post">
+                <div class="input">
+                    <label for="txt">Name</label><br>
+                    <input type="text" name="name" id="name">
+                </div>
+                <div class="input">
+                    <label for="txt">Password</label><br>
+                    <input type="password" name="password" id="password">
+                </div>
+                <div class="txt">
+                    <textarea name="txtarea" id="txtarea" cols="30" rows="10" style="padding: 10px; height: 100px; margin-left: 10px;" placeholder="Type a Message Here"></textarea>
+                </div>
+                <div class="btn">
+                    <input type="submit" class="bttn">
+                </div>
+            </form>
+            <div class="extrainfo">
+                <span>Forgot Password?<a href=""> Click Here</a></span>
+                <span>New?<a href=""> Click Here</a></span>
+            </div>
+        </div>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
